@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+    <defs>
+        <filter id="blur" x="-50%" y="-50%" width="200%" height="200%">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="60" />
+        </filter>
+    </defs>
+    <circle cx="200" cy="200" r="180" fill="#C8B8A6" opacity="0.6" filter="url(#blur)" />
+    <circle cx="650" cy="550" r="220" fill="#C8B8A6" opacity="0.4" filter="url(#blur)" />
+    <path d="M500 200 Q 700 400 350 700 T 150 400 Z" fill="#F4F5F0" opacity="0.3" filter="url(#blur)" />
+</svg>
